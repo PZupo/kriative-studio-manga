@@ -1,0 +1,8 @@
+{
+  "name": "Kriative Studio Mangá",
+  "description": "Uma plataforma avançada de criação e edição de mangás com IA, permitindo geração de roteiros, layouts de painéis dinâmicos e exportação de alta qualidade.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}

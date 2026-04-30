@@ -1,0 +1,15 @@
+{
+  "projects": {
+    "default": "afiliattuz-ecosystem"
+  },
+  "targets": {
+    "afiliattuz-ecosystem": {
+      "hosting": {
+        "manga": [
+          "kriative-studio-manga"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}

@@ -1,0 +1,26 @@
+Estrutura do Projeto Studio Mangá:
+
+.
+├── App.tsx
+├── g72-toolkit.ts
+├── index.html
+├── index.tsx
+├── metadata.json
+├── components/
+│   ├── ShareModal.tsx
+│   ├── ShareViewer.tsx
+│   ├── TailOverlaySVG.tsx
+│   ├── ThemeToggle.tsx
+│   ├── UserProfileMenu.tsx
+│   └── modals/
+│       ├── CharactersModal.tsx
+│       ├── GalleryModal.tsx
+│       ├── MagazineModal.tsx
+│       ├── PlannerModal.tsx
+│       └── ProjectsModal.tsx
+├── hooks/
+│   └── useLocalStorage.ts
+└── lib/
+    ├── canvas.ts
+    ├── types.ts
+    └── utils.ts
