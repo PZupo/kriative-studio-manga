@@ -129,7 +129,7 @@ const [lang, setLang] = useLocalState('kriative_lang', 'pt-BR');
                                  {languages.map((l) => (
                                     <button 
                                         key={l.code} 
-                                        onClick={() => { setLang(l.code); setLangOpen(false); }} 
+                                        onClick={() => { setLang(l.code); i18n.changeLanguage(l.code); setLangOpen(false); }}
                                         className="w-full flex items-center justify-between px-4 py-2.5 text-[10px] font-bold text-slate-600 dark:text-slate-300 hover:bg-orange-50 dark:hover:bg-orange-500/20 hover:text-orange-700 dark:hover:text-orange-300 text-left transition-colors"
                                     >
                                         {l.label} 
